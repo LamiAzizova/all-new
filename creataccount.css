@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.create-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* align-items: center;
+    padding: 0;
+    gap: 60px;
+    background-color:#2B2B2B ;
+    flex-direction: row;
+    width: 1280px;
+    height: 691px;
+    top: 100px; */
+}
+/* .create-2-about {
+  margin-left: 60px;
+} */
+
+.create-2-about h1 {
+  font-family: "Work Sans";
+  color: white;
+  font-size: 51px;
+  width: 600;
+  /* line-height: 110%; */
+  margin-bottom: 20px;
+  /* display: flex;
+    align-items: center; */
+  text-transform: capitalize;
+}
+.create-2-about p {
+  margin-bottom: 40px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  text-transform: capitalize;
+}
+.btn-input {
+  width: 330px;
+
+  border-radius: 20px;
+  /* padding: 12px 20px; */
+  /* display: flex; */
+  /* gap: 12px; */
+  margin-bottom: 15px;
+  /* align-self: stretch;
+    display: flex; 
+  flex-direction: row;
+    align-items: center;    */
+  /* border: 1px solid #858584; */
+  /* flex: none;  */
+}
+
+.btn-input input {
+  padding: 0px 52px;
+  border: none;
+  /* margin-left: 13px; */
+  width: 330px;
+  border-radius: 20px;
+  height: 46px;
+}
+.btn-input i {
+  color: #bdbdbd;
+
+ 
+}
+
+.btn-input .input-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.btn-input .input-box i {
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+}
+
+.form-box {
+  
+  /* margin-top: 50px; */
+  padding-left: 60px;
+}
+
+.form-box .btn {
+  display: block;
+  margin-top: 30px;
+  padding: 12px 104px;
+}

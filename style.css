@@ -1,0 +1,835 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2b2b2b;
+  /* justify-content: center;
+    align-items: center;
+     */
+}
+
+
+.nft-icon {
+  display: flex;
+  color: #a259ff;
+  font-size: 32px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 38px auto 118px;
+
+  width: 1180px;
+}
+.burger-menu-icon {
+  display: none;
+}
+.nft-icon {
+  display: flex;
+}
+header h1 {
+  font-family: "Work Sans";
+  font-size: 20px;
+  padding-left: 15px;
+  color: white;
+}
+header ul {
+  font-family: "Work Sans";
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+header ul li {
+  margin-left: 50px;
+}
+header ul li :last-child {
+  margin-right: 30px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* SECTION 2 */
+.home {
+  width: 1070px;
+  display: flex;
+  margin: 0 auto;
+}
+.home-text h1 {
+  font-family: "Work Sans";
+  color: white;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.home-text {
+  margin-right: 30px;
+  margin-bottom: 80px;
+
+}
+.home-text p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.btn {
+  font-family: "Work Sans";
+  text-decoration: none;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  background-color: #a259ff;
+}
+.btn i {
+  padding-right: 15px;
+}
+.home .numbers {
+  display: flex;
+  margin-top: 30px;
+}
+.home .numbers h3 {
+  font-family: "Space Mono";
+  font-size: 28px;
+  color: white;
+}
+.home .numbers p {
+  font-family: "Space Mono";
+  font-size: 24px;
+}
+.home .number {
+  margin-right: 30px;
+}
+.home-img-text {
+  background-color: #3b3b3b;
+  font-family: "Work Sans";
+  margin-top: -4px;
+  color: white;
+  padding: 22px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.home-img-text h5 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.home-img-text p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.home-img-text img {
+  padding-right: 12px;
+}
+.card {
+  display: flex;
+}
+.collection {
+  width: 1050px;
+  font-family: "Work Sans";
+  height: 100vh;
+  margin: 80px auto;
+}
+.collection h1 {
+  font-weight: 600;
+  color: white;
+  font-size: 38px;
+  line-height: 120%;
+}
+.collection p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  color: white;
+  margin-bottom: 60px;
+}
+.collection .card .photo-box {
+  display: flex;
+  align-items: center;
+}
+.collection .card .photo-box img {
+  margin-right: 15px;
+}
+.collection-btn {
+  font-family: "Work Sans";
+  text-decoration: none;
+  color: white;
+  background-color: #a259ff;
+  width: 100px;
+  height: 100px;
+  padding: 32px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.card .first {
+  margin-bottom: 15px;
+}
+.card .box {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.card .photo-box {
+  margin-bottom: 15px;
+}
+.card h3 {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
+.creator img {
+  margin-right: 12px;
+}
+.creator p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.creator {
+  height: 100vh;
+  width: 20px;
+  margin: 0;
+}
+.creator-text h3 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 38px;
+  width: 600;
+}
+.creator-text p {
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+.creator-btn {
+  font-family: "Work Sans";
+  text-decoration: none;
+  color: white;
+  background-color: #2b2b2b;
+  padding: 19px 50px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #a259ff;
+  line-height: 140%;
+}
+.creator-btn i {
+  color: #a259ff;
+  margin-right: 21px;
+}
+.creator-title {
+  display: flex;
+  font-family: "Work Sans";
+  justify-content: space-between;
+}
+/* SECTION 3 */
+.creators {
+    /* height: 100vh; */
+    width: 1050px;
+    margin: 80px auto;
+
+}
+
+.creators-txt h3 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+}
+
+.creators-txt p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+
+.creators-btn {
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: white;
+    background-color: #2B2B2B;
+    padding: 19px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #A259FF;
+    line-height: 140%;
+
+ }
+
+.creators-box {
+    display: grid;
+     flex-direction: row; 
+    gap: 30px;
+    grid-template-columns: repeat(4, 240px);
+    margin-bottom: 80px;
+}
+
+
+.creators-btn i {
+    color: #A259FF;
+    margin-right: 21px;
+}
+
+.creators-title {
+    display: flex;
+    font-family: "Work Sans";
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.c-box {
+    position: relative;
+    padding: 20px;
+    width: 240px;
+    height: 238px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+}
+
+.creators-box img {
+    padding: 20px auto;
+    position: absolute;
+    left: 25%;
+}
+
+.c-box i {
+    font-family: "Space Mono";
+    position: absolute;
+    color: #858584;
+    border: 1px solid #2B2B2B;
+    border-radius: 50%;
+    padding: 4px 10px;
+    background-color: #2B2B2B;
+}
+
+.c-box-title {
+    position: absolute;
+    top: 67%;
+    left: 15%;
+}
+
+.c-box-title h5 {
+    color: white;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.c-box-title p {
+    color: #858584;
+}
+
+.c-box-title span {
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+} */
+
+/* SECTION 4 */
+.categories {
+    width: 1050px;
+    margin: 80px auto;
+
+}
+.categories-title {
+    width: 1050px;
+    margin: 80px auto;
+    text-transform: capitalize;
+
+}
+
+.categories-box {
+  display: grid;
+  margin: 0 auto;
+  width: 1050px;
+    gap: 30px;
+    grid-template-columns: repeat(4, 240px);
+}
+
+.categories h3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.bc-box {
+    position: relative;
+    border-radius: 20px;
+    width: 240px;
+    height: 316px;
+    background-color: #3B3B3B;
+     overflow: hidden; 
+
+}
+
+.bc-box .box-img {
+    overflow: hidden;
+}
+
+.bc-box img:first-child {
+    filter: blur(5px);
+   
+}
+
+.bc-box i {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+
+.bc-box .p-icon {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.categories h2 {
+    padding: 20px 30px 25px;
+    font-family: "Work Sans";
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* SECTION 5 */
+.discover {
+ 
+    width: 1050px;
+    margin: 80px auto;
+}
+
+.discver-card {
+    display: flex;
+}
+
+.discover-title {
+    display: flex;
+    font-family: "Work Sans";
+    justify-content: space-between;
+    align-items: flex-start;
+    text-transform: capitalize;
+}
+
+.discover-txt h3 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  
+}
+
+.discover-txt p {
+    text-transform: capitalize;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.discover-btn {
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: white;
+    background-color: #2B2B2B;
+    padding: 19px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #A259FF;
+    line-height: 140%;
+}
+
+.discover-btn i {
+    margin-right: 19px;
+}
+
+.discover-img-txt {
+    background-color: #3B3B3B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-family: "Work Sans";
+    padding: 22px 20px;
+    margin-top: -4px;
+}
+
+.discover h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.discover .cp {
+    margin-right: 12px;
+}
+
+.discover p {
+    font-family: "Space Mono";
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discover-img {
+    width: 33%;
+    margin-right: 30px;
+}
+
+.discover-img .discover-imgs {
+    width: 100%;
+}
+
+.discover .price {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price .p1 p {
+    font-family: "Space Mono";
+    color: rgba(133, 133, 132, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.price .p1 h3 {
+    font-family: "Space Mono";
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* SECTION 6 */
+.magic {
+    background-image: url(nft-highlight@1x.png);
+    position: relative;
+  
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.bcg-color {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+}
+
+.magic-title p {
+    width: 151px;
+    height: 44px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(59, 59, 59, 1);
+    padding: 11px 20px;
+    margin-bottom: 30px;
+}
+.magic-title img {
+    margin-right: 12px;
+}
+.magic-txt {
+    width: 1056px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.magic-txt h2 {
+    color: white;
+    font-family: "Work Sans";
+    font-size: 51px;
+    font-weight: 600;
+    margin-bottom: 56px;
+}
+
+.magic-btn {
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: #2B2B2B;
+    background-color: white;
+    padding: 19px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.magic-btn i {
+
+    color: #A259FF;
+    margin-right: 19px;
+}
+.magic .clock {
+    background-color: rgba(59, 59, 59, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+}
+.magic .clock-number {
+    display: flex;
+    color: white;
+}
+
+.magic .clock p, span {
+    font-family: "Space Mono";
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.magic .clock-number h3 {
+    font-family: "Space Mono";
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* SECTION 7 */
+.work {
+    width: 1050px;
+   
+    margin: 80px auto;
+}
+.work h3 {
+    text-transform: capitalize;
+    color: white;
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.work p {
+    /* text-transform: capitalize; */
+    color: white;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.work-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    column-gap: 30px;
+}
+.work-card {
+    width: 330px;
+    height: 439px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.work-card-txt {
+    padding: 0 30px;
+    text-align: center;
+}
+.work-card img {
+    padding: 30px 60px;
+}
+.work-card h5 {
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.work-card p {
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+/* SECTION 8 */
+.digest {
+   
+    width: 1050px;
+    margin: 80px auto ;
+}
+
+.astronaut {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+.digest h3 {
+    color: white;
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.digest p {
+    color: white;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.digest-txt input {
+    font-family: "Work Sans";
+    padding: 19px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.digest-btn i {
+    color: white;
+    margin-right: 13px;
+}
+.digest-txt a {
+    margin-left: -39px;
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: white;
+    background-color: #A259FF;
+    padding: 19px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+/* FOOTER 1 */
+footer {
+    margin: 0 auto;
+    background-color: #3B3B3B;
+   
+}
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 115px;
+}
+footer h1 {
+    font-family: "Space Mono";
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+footer p {
+    font-family: "Work Sans";
+ color: rgba(204, 204, 204, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin-right: 13px;
+}
+.footer-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.footer-ntf-icon i {
+    color: #A259FF;
+    font-size: 32px;
+}
+
+.footer-socials i {
+    color: rgba(133, 133, 132, 1);
+}
+
+.explore h5 {
+    font-size: 22px;
+    font-family: 700;
+    color: white;
+    font-family: "Space Mono";
+}
+.footer-txt h5 {
+    color: white;
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.footer-txt p {
+    color: white;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-txt input {
+    font-family: "Work Sans";
+    padding: 19px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.footer-btn i {
+    color: white;
+    margin-right: 13px;
+}
+.footer-txt a {
+    margin-left: -39px;
+    font-family: "Work Sans";
+    text-decoration: none;
+    color: white;
+    background-color: #A259FF;
+    padding: 19px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.line {
+    border: 1px solid #fff;
+    width: 69%;
+    margin-left: 231px;
+    margin-top: -30px;
+}
+footer .c {
+    margin-top: 20px;
+    margin-left: 231px;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.connect-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.connect-2-about h1 {
+    font-family: "Work Sans";
+    color: white;
+    font-size: 51px;
+    width: 600;
+    
+    margin-bottom: 20px;
+    
+    text-transform: capitalize;
+  }
+  .connect-2-about p {
+    margin-bottom: 40px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+  }
+  .connect-box {
+  
+    padding-left: 60px;
+  }
+ 
+.connect-btn ul {
+    list-style: none;
+}
+
+.connect-btn ul li {
+    display: flex;
+    align-items: center;
+    padding: 21px 20px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(162, 89, 255, 1);
+}
+
+.connect-btn ul li h5 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: white;
+    margin-left: 20px;
+}
